@@ -4,3 +4,10 @@ while count < 10 && count != magic_exit_number do
   puts "I am the #{count}, I love to count!"
   count += 1 
 end 
+
+count = 10
+
+while count > 0 do
+  puts count
+  count -=
+end
